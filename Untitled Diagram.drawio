@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-12-22T02:14:43.458Z" agent="5.0 (X11)" etag="jyOO3UFGp2osdoE6QmBU" version="16.0.3" type="github" pages="2">
-  <diagram id="MZRI4nUH_HbJwKXuaoRH" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-12-22T02:32:20.980Z" agent="5.0 (X11)" etag="0QM-zjozgX6jn1LPd4ec" version="16.0.3" type="github" pages="2">
+  <diagram id="MZRI4nUH_HbJwKXuaoRH" name="Classes">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -20,13 +20,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l_4HXUizQV4qGMVoEW6K-7" value="Dite" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="90" width="110" height="50" as="geometry" />
+          <mxGeometry x="116" y="300" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RSAyyKOw4akzxzm5Qr3p-11" value="Naimportuj soubor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_4HXUizQV4qGMVoEW6K-10" target="l_4HXUizQV4qGMVoEW6K-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l_4HXUizQV4qGMVoEW6K-10" value="Soubor csv" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="964" y="200" width="110" height="60" as="geometry" />
+          <mxGeometry x="340" y="410" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RSAyyKOw4akzxzm5Qr3p-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_4HXUizQV4qGMVoEW6K-11" target="l_4HXUizQV4qGMVoEW6K-7">
           <mxGeometry relative="1" as="geometry" />
@@ -37,19 +37,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l_4HXUizQV4qGMVoEW6K-11" value="Databaze SQLite" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="964" y="90" width="110" height="50" as="geometry" />
+          <mxGeometry x="340" y="300" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RSAyyKOw4akzxzm5Qr3p-14" value="Posli email" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_4HXUizQV4qGMVoEW6K-12" target="RSAyyKOw4akzxzm5Qr3p-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l_4HXUizQV4qGMVoEW6K-12" value="Ucet" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="370" width="110" height="50" as="geometry" />
+          <mxGeometry x="116" y="580" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RSAyyKOw4akzxzm5Qr3p-9" value="Vygeneruj Qr code a pokyny k platbe" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_4HXUizQV4qGMVoEW6K-13" target="l_4HXUizQV4qGMVoEW6K-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l_4HXUizQV4qGMVoEW6K-13" value="Platba" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="240" width="110" height="50" as="geometry" />
+          <mxGeometry x="116" y="450" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l_4HXUizQV4qGMVoEW6K-14" value="Platba" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="450" y="40" width="160" height="190" as="geometry" />
@@ -76,7 +76,7 @@
           <mxGeometry y="108" width="160" height="82" as="geometry" />
         </mxCell>
         <mxCell id="RSAyyKOw4akzxzm5Qr3p-13" value="Konec" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="480" width="110" height="50" as="geometry" />
+          <mxGeometry x="116" y="690" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
